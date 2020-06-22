@@ -5,14 +5,14 @@ public class Motorbike extends Vehicle {
         super(model, 2);
     }
 
-    public String drivingInstructions()
+    public final String drivingInstructions()
     {
         return super.drivingInstructions() + " Use handlebars to steer.";
 
     }
 
     @Override
-    public String boardingInstructions() {
+    public final String boardingInstructions() {
         return "Just hop on.";
     }
 }
